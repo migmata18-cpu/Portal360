@@ -1,11 +1,10 @@
 # Organización del código
 
-- `app/`: componente principal y, más adelante, rutas.
-- `paginas/`: pantallas completas.
-- `estilos/`: colores y estilos generales.
-
-Se añadirán cuando hagan falta:
-
-- `componentes/`: piezas reutilizables (botones, tablas, formularios).
-- `modulos/`: lógica de empleados, solicitudes, inducción e incidencias.
-- `servicios/`: conexión con Supabase.
+- `app/`: rutas y componente principal.
+- `paginas/`: las seis pantallas.
+- `componentes/`: menú, ventanas, etiquetas y otras piezas reutilizables.
+- `contexto/`: estado temporal del modo de demostración (no es autenticación).
+- `datos/`: datos ficticios que reemplazará Supabase.
+- `tipos/`: forma de los datos.
+- `utilidades/`: fechas, textos y validaciones.
+- `estilos/`: colores, diseño y adaptación a pantallas.

@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { App } from '@/app/App'
+import '@fontsource-variable/inter'
 import '@/estilos/global.css'
 
 const contenedor = document.getElementById('root')
