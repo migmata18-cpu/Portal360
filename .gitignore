@@ -1,0 +1,16 @@
+# Librerías y archivos generados
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+
+# Claves y configuración privada
+.env
+.env.*
+!.env.example
+
+# Archivos locales
+.DS_Store
+.netlify/
+.vscode/
+.claude/settings.local.json
