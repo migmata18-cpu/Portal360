@@ -1,0 +1,28 @@
+:root {
+  --azul-oscuro: #12305c;
+  --azul-claro: #e8f3fc;
+  --blanco: #ffffff;
+
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--azul-oscuro);
+  background: var(--azul-claro);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bienvenida {
+  display: grid;
+  min-height: 100svh;
+  place-content: center;
+  padding: 1.5rem;
+  text-align: center;
+}
